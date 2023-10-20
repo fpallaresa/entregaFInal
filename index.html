@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadona - Tienda online</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <!-- Primer Bloque: Header -->
+    <header class="header">
+        <img class="logo" src="./assets/logo.png">
+    </header>
+
+    <!-- Segundo Bloque: Contiene el listado de items y el carrito -->
+    <section class="container">
+        <main class="main">
+            <h2>Fruta</h2>
+            <div id="listItems" class="restaurant-items">
+                <!-- Aquí van los items generados por javascript -->
+            </div>
+        </main>
+        <aside class="cart">
+            <h2>Carro</h2>
+            <!-- Cuando no hay producto -->
+            <div id="cartNoItems" class="cart-no-products">
+                <p class="no-products-text"> Todavía no has añadido ningún producto. Cuando lo hagas, ¡verás los productos aquí! </p>
+            </div>
+            <!-- Cuando hay producto -->
+            <div id="cartItems" class="cart-products">
+                    <!-- Aquí van los productos agregados al carrito -->
+            </div>
+            
+        </aside>
+    </section>
+
+    <!-- Terce Bloque: Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <img class="footer-logo" src="./assets/logo-footer.png">
+            </div>
+            <div>
+                <a class="footer-link" href="#">Trabaja con nosotros</a>
+                <a class="footer-link" href="#">Acerca de nosotros</a>
+                <a class="footer-link" href="#">Preguntas frecuentes</a>
+            </div>
+            <div>
+                <a class="footer-link" href="#">Blog</a>
+                <a class="footer-link" href="#">Contacto</a>
+                <a class="footer-link" href="#">Seguridad</a>
+            </div>
+            <div>
+                <a class="footer-link" href="#">Facebook</a>
+                <a class="footer-link" href="#">Twitter</a>
+                <a class="footer-link" href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
